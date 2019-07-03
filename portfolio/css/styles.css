@@ -39,7 +39,7 @@ a:hover {
   text-decoration: none;
 }
 .content-wrap {
-  max-width: 950px;
+  max-width: 1500px;
   margin: 0 auto;
   padding: 60px 50px;
   overflow: hidden;
@@ -73,7 +73,13 @@ header h1, header h2 {
 }
 .profile-img {
   border-radius: 50%;
+  margin-top: 30px;
 }
+.col-wide{
+  max-width: 750px;
+  margin-left: 90px;
+}
+
 .download {
   position: absolute;
   bottom: 0;
@@ -140,7 +146,12 @@ p + h3 {
 -------------------------*/
 .project {
   margin: 100px;
-  display:flex;
+}
+
+.build {
+  min-height: 250px;
+  float:right;
+  margin-top: -250px;
 }
 
 
@@ -152,6 +163,7 @@ p + h3 {
     width: 30%;
     float: left;
   }
+  
   .col-wide {
     width: 70%;
     float: left;
