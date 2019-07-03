@@ -164,11 +164,13 @@ p + h3 {
     float: left;
   }
   
-  .col-wide {
+  .content-wrap .col-wide {
     width: 70%;
     float: left;
     padding-left: 20px;
+    margin-left: 0px;
   }
+  
 }
 
 @media (max-width: 899px) {
@@ -177,5 +179,14 @@ p + h3 {
   }
   .profile-img {
     width: 200px;
+    margin:0px;
+  }
+  .content-wrap .col-wide {
+    margin-left: 0px;
+  }
+  .build {
+    min-height: 250px;
+    float:none;
+    margin-top: 10px;
   }
 }
